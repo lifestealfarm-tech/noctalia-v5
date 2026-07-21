@@ -1,0 +1,486 @@
+[backdrop]
+enabled = true
+
+[bar]
+order = [ "default" ]
+
+    [bar.default]
+    background_opacity = 0.19999999552965164
+    border_width = 1.0
+    concave_edge_corners = false
+    end = [ "media", "notifications", "clipboard", "bluetooth", "volume", "brightness", "battery", "session" ]
+    margin_edge = 12
+    margin_ends = 50
+    position = "left"
+    scale = 1.4000000134110451
+    shadow = false
+    start = [ "launcher", "control-center", "workspaces", "tray" ]
+    thickness = 48
+    widget_spacing = 15
+
+[control_center]
+sidebar = "full"
+
+[desktop_widgets]
+schema_version = 2
+widget_order = [
+    "desktop-widget-000000000000002a",
+    "desktop-widget-0000000000000022",
+    "desktop-widget-000000000000001d",
+    "desktop-widget-0000000000000026",
+    "desktop-widget-0000000000000028",
+    "desktop-widget-0000000000000004",
+    "desktop-widget-0000000000000007",
+    "desktop-widget-0000000000000008",
+    "desktop-widget-0000000000000009",
+    "desktop-widget-000000000000000d",
+    "desktop-widget-000000000000000f",
+    "desktop-widget-0000000000000013",
+    "desktop-widget-0000000000000020",
+    "desktop-widget-000000000000000e",
+    "desktop-widget-000000000000000b",
+    "desktop-widget-000000000000000c",
+    "desktop-widget-000000000000000a",
+    "desktop-widget-000000000000002c",
+    "desktop-widget-0000000000000012",
+    "desktop-widget-0000000000000011"
+]
+
+    [desktop_widgets.grid]
+    cell_size = 32
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000004]
+    box_height = 160.0
+    box_width = 224.0
+    cx = 1328.0
+    cy = 200.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000004.settings]
+        background_opacity = 0.5
+        center_text = true
+        clock_style = "digital"
+        font_family = "Adwaita Mono"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000007]
+    box_height = 192.0
+    box_width = 368.0
+    cx = 1576.0
+    cy = 920.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "media_player"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000007.settings]
+        background_opacity = 0.5
+        layout = "horizontal"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000008]
+    box_height = 160.0
+    box_width = 256.0
+    cx = 1616.0
+    cy = 200.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "sysmon"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000008.settings]
+        background_opacity = 0.5
+        display = "graph"
+        gauge_layout = "horizontal"
+        shadow = false
+        stat = "cpu_usage"
+        stat2 = "ram_pct"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000009]
+    box_height = 112.0
+    box_width = 224.0
+    cx = 1616.0
+    cy = 376.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "weather"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000009.settings]
+        background_opacity = 0.5
+
+    [desktop_widgets.widget.desktop-widget-000000000000000a]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1248.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = -0.0
+    type = "button"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000a.settings]
+        background = true
+        color = "on_surface"
+        command = "firefox"
+        glyph = "brand-firefox"
+        variant = "ghost"
+
+    [desktop_widgets.widget.desktop-widget-000000000000000b]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1488.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "button"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000b.settings]
+        background = true
+        color = "on_surface"
+        command = "spotify-launcher"
+        glyph = "brand-spotify"
+        variant = "ghost"
+
+    [desktop_widgets.widget.desktop-widget-000000000000000c]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1408.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "button"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000c.settings]
+        background = true
+        color = "on_surface"
+        command = "steam"
+        glyph = "brand-steam"
+        variant = "ghost"
+
+    [desktop_widgets.widget.desktop-widget-000000000000000d]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1328.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "button"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000d.settings]
+        background = true
+        color = "on_surface"
+        command = "alacritty"
+        glyph = "terminal"
+        variant = "ghost"
+
+    [desktop_widgets.widget.desktop-widget-000000000000000e]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1568.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "button"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000e.settings]
+        background = true
+        color = "on_surface"
+        command = "waywallen"
+        glyph = "augmented-reality"
+        variant = "ghost"
+
+    [desktop_widgets.widget.desktop-widget-000000000000000f]
+    box_height = 192.0
+    box_width = 224.0
+    cx = 1248.0
+    cy = 920.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-000000000000000f.settings]
+        background_opacity = 0.5
+        background_padding = 10
+        background_radius = 12
+        bands = 28
+        centered = true
+        mirrored = true
+        show_when_idle = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000011]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1264.0
+    cy = 408.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "button"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000011.settings]
+        background = true
+        color = "on_surface"
+        command = "pavucontrol"
+        glyph = "bluetooth-device-headphones"
+        variant = "ghost"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000012]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1264.0
+    cy = 328.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "button"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000012.settings]
+        background = true
+        color = "on_surface"
+        command = "dolphin"
+        glyph = "folder"
+        variant = "ghost"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000013]
+    box_height = 144.0
+    box_width = 144.0
+    cx = 1400.0
+    cy = 368.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "sticker"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000013.settings]
+        background = false
+        image_path = "/home/classarty/pirated games/Factorio-SteamRIP/Factorio/data/base/thumbnail.png"
+        opacity = 1.0
+
+    [desktop_widgets.widget.desktop-widget-000000000000001d]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1408.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-000000000000001d.settings]
+        background_opacity = 0.5
+        background_radius = 8
+        opacity = 0.0
+        title = ""
+
+    [desktop_widgets.widget.desktop-widget-0000000000000020]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1488.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000020.settings]
+        background_opacity = 0.5
+        background_radius = 8
+        opacity = 0.0
+        title = ""
+
+    [desktop_widgets.widget.desktop-widget-0000000000000022]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1568.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000022.settings]
+        background_opacity = 0.5
+        background_radius = 8
+        opacity = 0.0
+        title = ""
+
+    [desktop_widgets.widget.desktop-widget-0000000000000026]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1328.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000026.settings]
+        background_opacity = 0.5
+        background_radius = 8
+        opacity = 0.0
+        title = ""
+
+    [desktop_widgets.widget.desktop-widget-0000000000000028]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1248.0
+    cy = 1080.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000028.settings]
+        background_opacity = 0.5
+        background_radius = 8
+        opacity = 0.0
+        title = ""
+
+    [desktop_widgets.widget.desktop-widget-000000000000002a]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1264.0
+    cy = 408.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-000000000000002a.settings]
+        background_opacity = 0.5
+        background_radius = 8
+        opacity = 0.0
+        title = ""
+
+    [desktop_widgets.widget.desktop-widget-000000000000002c]
+    box_height = 64.0
+    box_width = 64.0
+    cx = 1264.0
+    cy = 328.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "label"
+
+        [desktop_widgets.widget.desktop-widget-000000000000002c.settings]
+        background_opacity = 0.5
+        background_radius = 8
+        opacity = 0.0
+        title = ""
+
+[location]
+auto_locate = true
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@winit", "lockscreen-login-box@HDMI-A-1", "lockscreen-login-box@eDP-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 960.0
+    cy = 1081.0
+    output = "HDMI-A-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_password_hint = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 960.0
+    cy = 961.0
+    output = "eDP-1"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_password_hint = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@winit"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 464.0
+    cy = 983.0
+    output = "winit"
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@winit".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_password_hint = true
+
+[shell]
+app_icon_color = "on_surface"
+button_borders = false
+corner_radius_scale = 0.7500000111758709
+font_family = "icomoon"
+input_borders = false
+popup_shadows = false
+
+    [shell.animation]
+    speed = 1.1500000171363354
+
+    [shell.panel]
+    control_center_placement = "floating"
+    floating_offset = 12
+    shadow = false
+    transparency_mode = "glass"
+    wallpaper_placement = "floating"
+
+    [shell.shadow]
+    alpha = 0.0
+    direction = "center"
+
+[theme]
+builtin = "Ayu"
+community_palette = "Cream Autumn"
+mode = "dark"
+source = "community"
+wallpaper_scheme = "m3-fruit-salad"
+
+    [theme.templates]
+    builtin_ids = [ "alacritty", "btop", "cava", "ghostty", "niri", "starship" ]
+    community_ids = [ "steam" ]
+
+[wallpaper]
+directory = "/home/classarty/.local/share/waywallen/remote/wallhaven"
+enabled = false
+
+    [wallpaper.default]
+    path = "/home/classarty/.local/share/waywallen/remote/wallhaven/wallhaven-3q6qw9.jpg"
+
+    [wallpaper.last]
+    path = "/home/classarty/.local/share/waywallen/remote/wallhaven/wallhaven-3q6qw9.jpg"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/classarty/.local/share/waywallen/remote/wallhaven/wallhaven-3q6qw9.jpg"
+
+[widget.battery]
+display_mode = "graphic"
+
+[widget.clock]
+enabled = false
